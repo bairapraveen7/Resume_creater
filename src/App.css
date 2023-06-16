@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -24,8 +27,77 @@
   color: white;
 }
 
+.theform{
+  padding:0% 10% 10% 10%;
+}
+
+
+.veww {
+  text-align: left;
+  margin-left:20%;
+}
+
+ 
+
+.dbs{
+  margin-left: 5%;
+  margin-top:10%;
+}
+
+.personal{
+  text-align: left;
+  margin:4%;
+}
+
+.right{
+  margin-left:70%;
+}
+
+label {
+  display: flex;
+  margin: 1%;
+  position: relative;
+  left:-7%;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.mc{
+  display: flex;
+  justify-content: center;
+  margin:2%;
+}
+
+ .linkgroup{
+  border: 2px solid black;
+  display: flex;
+  justify-content: right;
+  height: 4%;
+ }
+
+.links{
+  display: inline;
+   
+  margin:3%;
+}
+
+.form-control{
+  display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 2%;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    appearance: none;
+    border-radius: var(--bs-border-radius);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 @keyframes App-logo-spin {
